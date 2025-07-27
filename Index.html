@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrackWISE - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">TrackWISE</div>
+    <nav>
+      <a href="#">Features</a>
+      <a href="#">How It Works</a>
+      <a href="#">FAQs</a>
+   </nav>
+    <div class="buttons">
+      <a href="#" class="login">Log In</a>
+      <a href="#" class="signup">Sign Up</a>
+    </div>
+     
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Track Your Money.<br>Master Your Future.</h1>
+      <p>Track Wise helps you stay on top of your income, control your daily spending, budget and achieve your financial goals.</p>
+      <div class="app-buttons">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" width="150">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+      </div>
+    </div>
+    <div class="hero-image">
+     <img src="image.jpg" width="300" height="400" alt="Real dashboard image">
+
+
+    </div>
+  </section>
+
+  <hr>
+  <section class="features">
+    
+    <div class="pic"><img src="pic.png"   width="300" height="400" alt="image"></div>
+    
+    <div class="feat">
+    <div class="feature">
+      <h3>Income & Expense Tracking</h3>
+      <p>Keep track of your earnings and spending, and manage them within your budget.</p>
+    </div>
+    <div class="feature">
+      <h3>Visual Reports</h3>
+      <p>Gain powerful insights into your personal or business finances.</p>
+    </div>
+    <div class="feature">
+      <h3>Smart Reminders</h3>
+      <p>Set alerts to help avoid late fees and overspending.</p>
+    </div>
+    <div class="feature">
+      <h3>Financial Insights</h3>
+      <p>Receive relevant suggestions to boost your financial health.</p>
+    </div>
+    </div>
+  </section>
+
+  <hr>
+ <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">1. Create your free account</div>
+      <div class="step">2. Set your budget and goals</div>
+      <div class="step">3. Track income & expenses</div>
+      <div class="step">4. Get smart reports & reminders</div>
+    </div>
+    <div class="how-image">
+      <img src="pic2.png"  alt="TrackWise App" />
+
+
+    </div>
+  </section>
+
+  <hr>
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-list">
+      <div class="testimonial">
+        <p>⭐️⭐️⭐️⭐️⭐️</p>
+        <p>“Great app! Love the visuals. Just waiting for dark mode and more currency options.”<br><strong>- Emeka T.</strong></p>
+      </div>
+      <div class="testimonial highlighted">
+        <p>⭐️⭐️⭐️⭐️⭐️</p>
+        <p>“Clean UI, helpful reports, and the reminders keep me on track. Budgeting has never felt this easy!”<br><strong>- Jasmine U.</strong></p>
+      </div>
+      <div class="testimonial">
+        <p>⭐️⭐️⭐️⭐️</p>
+        <p>“Does the job well. Would be better with bank sync and more tips.”<br><strong>- Tolu M.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+   <section class="faqs-collapsible">
+    <h2>FAQs</h2>
+    <div class="faq-item">
+      <button class="faq-question">Is Track Wise free? <span>+</span></button>
+      <div class="faq-answer">
+        Yes, you can start with a free plan and upgrade later for advanced features.
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Can I use it offline? <span>+</span></button>
+      <div class="faq-answer">
+        Some features are available offline, but syncing requires internet.
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Is my data secure? <span>+</span></button>
+      <div class="faq-answer">
+        We use bank-grade encryption to secure your data.
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Does it work on Android & iOS? <span>+</span></button>
+      <div class="faq-answer">
+        Yes, Track Wise supports both Android and iOS platforms.
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <strong>TrackWISE</strong><br/>
+        Your financial clarity starts here
+      </div>
+      <div class="footer-icons">
+        <a href="#"> <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" width="150"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" /></a>
+        <a href="#"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/facebook.svg" alt="Facebook" width="30"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" alt="Instagram" width="30"/></a>
+      </div>
+      <div class="footer-links">
+        <a href="#">About</a> | 
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Terms of Use</a>
+      </div>
+      <div class="footer-contact">
+        📧 <a href="mailto:support@trackwise.com">Contact Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const faqItem = button.parentElement;
+        faqItem.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
